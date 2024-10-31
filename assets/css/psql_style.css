@@ -1,0 +1,71 @@
+.psl_meta_network_wrapper {
+    padding: 10px;
+}
+.psl_meta_nt_box {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin: 7px 7px 7px 8px;
+    padding: 10px;
+    max-width: 100px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.psl_meta_nt_box:before {
+    width: 32px;
+    height: 32px;
+    content: " ";
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.psl_meta_nt_box[data-type="tw"]:before {
+    background-image: url(https://assets.postsquirrel.com/tw_logo.png);
+}
+.psl_meta_nt_box[data-type="fb"]:before {
+    background-image: url(https://assets.postsquirrel.com/fb_logo.png);
+}
+.psl_meta_nt_box.selected:after {
+    background-image: url(https://assets.postsquirrel.com/checked.png);
+    width: 20px;
+    height: 20px;
+    content: " ";
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 5px;
+    right: 5px;
+}
+.psl_content_wrapper {
+    background: #fff;
+    min-height: 700px;
+    margin: 15px 10px;
+}
+.center {
+    text-align: center;
+}
+.p20 {
+    padding: 20px;
+}
+#psl_site_key {
+    min-width: 400px;
+}
+.psl_content_wrapper .info_meta {
+    font-size: 15px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5em;
+}
+.psl_content_wrapper .button-danger, .psl_content_wrapper .button-danger:hover, .psl_content_wrapper .button-danger:focus {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.psl_content_wrapper .button-danger:hover {
+    color: #fff;
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+#postsquirrel_selectable_box {
+    font-size: 15px;
+}
